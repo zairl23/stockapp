@@ -1,6 +1,6 @@
 ## Description
 
-This a small web app about Stock.
+This is a small web app about Stock.
 
 The app is created by Koajs as backend and Angularjs as front
 
