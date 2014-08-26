@@ -16,4 +16,6 @@ then launch the server by :
 
 You can see it on localhost:3000
 
+You also can see [the online demo](http://appstock.herokuapp.com/)
+
 
