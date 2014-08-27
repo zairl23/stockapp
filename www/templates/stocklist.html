@@ -1,7 +1,14 @@
 <ion-view title="单股最新行情">
   <ion-content class="has-header">
-    <div class="col">
     <h1>股票名称:{{ title }}-- {{ stockNum }}</h1>
+    日K线:
+    <img src="http://image.sinajs.cn/newchart/daily/n/{{ stockNum }}.gif">
+    分时线:
+    <img src="http://image.sinajs.cn/newchart/min/n/{{ stockNum }}.gif">
+    周K线:
+    <img src="http://image.sinajs.cn/newchart/weekly/n/{{ stockNum }}.gif">
+    月K线:
+    <img src="http://image.sinajs.cn/newchart/monthly/n/{{ stockNum }}.gif">
     <p>今日开盘价: {{show.opening_price }}</p>
     <p>昨日收盘价: {{show.closing_price }}</p>
     <p>当前价格: {{ show.now_price }}</p>
@@ -31,7 +38,6 @@
     <p>卖五报价: {{ show.fivesell_price }}</p>
     <p>日期：{{ show.date }}</p>
     <p>时间: {{ show.time }}</p>
-    </div>
   </ion-content>
 </ion-view>
 
